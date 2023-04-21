@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+
+ <link rel="stylesheet"href="login.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ <script type="text/javascript">
+  
+  function msg(){
+      var username="#";
+      var password="#";
+
+      if (user.value=="#" && pass.value=="#")
+      {
+          alert("login successfull");
+      }
+      else{
+          alert("invalid");
+       
+      }
+      
+
+      }
+
+
+
+</script>
+ </head>
+ <body>
+        <div class="form">
+           <a href=""><i class="fa-solid fa-user-tie fa-beat" style="color: #f00f47;"></i></a>  
+           <br>
+           <br> 
+           <Label><i class="fa-solid fa-at fa-beat-fade" style="color: #f00f47;"></i></Label>
+            <input id="user" type="email" name="email" placeholder="enter email"required>
+            <br>
+            <br>
+            <label><i class="fa-solid fa-key fa-beat-fade" style="color: #f00f47;"></i></label>
+            <input id="pass" type="password"name="password"placeholder="enter password"required>
+            <br>
+            <br>
+            <button onclick="msg();">submit</button>
+            </div>
+        </form>
+    </body>
+</html>

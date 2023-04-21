@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    
+    padding: 1%;
+    
+    margin: 1%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(201, 250, 194);
+  }
+
+  label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-shadow: 3px;
+    font-style: italic;
+    color: brown;
+  }
+
+  input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-shadow: 2px;
+    font-style: italic;
+    background-color: rgb(248, 201, 156);
+  }
+
+  button:hover{color: rgb(253, 172, 20);
+    background-color: rgb(194, 252, 88);
+    border-radius: 10px}
